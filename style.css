@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,
+body{
+height: 100%;
+width: 100%;
+background-color: #63cbff;
+}
+#box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    width: 550px;
+    background-image: url(https://i.pinimg.com/564x/d7/d1/25/d7d125142edc2e6228f0e88359054b56.jpg);
+    object-fit: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#like{
+    color: rgba(200, 39, 120, 0.667);
+    font-size: 100px;
+    scale: 0;
+    transition: all ease-in 0.2s;
+}
+#car{position: absolute;
+    transform: translate(-50%,-50%);
+    transition: linear 0.15s ;
+    font-size: 50px;
+}
